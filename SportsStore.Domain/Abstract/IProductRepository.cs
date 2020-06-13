@@ -11,6 +11,6 @@ namespace SportsStore.Domain.Abstract
     {
         // this interface uses IEnumerable<T> to allow a caller to obtain a sequence of product objects without saying how 
         // or where the data is stored or retrieved.
-        IEnumerable<Product> Products { get; set; }
+        IEnumerable<Product> Products { get;}
     }
 }
